@@ -35,6 +35,8 @@ def parse_command_args():
 
 def percent_to_graph(percent, total_chars):
     "returns a string: eg. '##  ' for 50 if total_chars == 4"
+    
+    
     pass
 
 def call_du_sub(location):
