@@ -9,9 +9,9 @@ import argparse
 '''
 OPS435 Assignment 2 - Summer 2021
 Program: duim.py 
-Author: "Student Name"
+Author: "Hamza Najmuddin"
 The python code in this file (duim.py) is original work written by
-"Student Name". No code in this file is copied from any other source 
+"Hamza Najmuddin". No code in this file is copied from any other source 
 except those provided by the course instructor, including any person, 
 textbook, or on-line resource. I have not shared this python script 
 with anyone or anything except for submission for grading.  
@@ -20,7 +20,7 @@ violators will be reported and appropriate action will be taken.
 
 Description: <Enter your documentation here>
 
-Date: 
+Date: 27 July 2021
 '''
 
 def parse_command_args():
