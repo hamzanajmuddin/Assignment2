@@ -68,6 +68,8 @@ def call_du_sub(location):
 
 def create_dir_dict(raw_dat):
     "get list from du_sub, return dict {'directory': 0} where 0 is size"
+    dbvnjo
+    frgn
     pass
 
 
