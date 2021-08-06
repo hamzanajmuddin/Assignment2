@@ -27,9 +27,8 @@ def parse_command_args():
     "Set up argparse here. Call this function inside main."
     parser = argparse.ArgumentParser(description="DU Improved -- See Disk Usage Report with bar charts",epilog="Copyright 2021")
     parser.add_argument("-l", "--length", type=int, default=20, help="Specify the length of the graph. Default is 20.")
-    # add argument for "human-readable". USE -H, don't use -h! -h is reserved for --help which is created automatically.
-    # check the docs for an argparse option to store this as a boolean.
-    # add argument for "target". set number of args to 1.
+
+    
     args = parser.parse_args()
 
 
