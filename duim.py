@@ -75,4 +75,11 @@ def create_dir_dict(raw_dat):
 
 
 if __name__ == "__main__":
-    pass
+    #take input from user and get directory size
+    sub = call_du_sub(sys.argv[1])
+    dit = create_dir_dict(sub)
+    total_size = dit[sys.argv[1]]
+    total_size = total_size / 1000
+    #print(dit)
+    holder = []
+    val = []
